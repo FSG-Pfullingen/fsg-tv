@@ -1,3 +1,4 @@
 config.json
 .cache/
-data/poster
+data/poster/*
+!data/poster/.gitkeep
