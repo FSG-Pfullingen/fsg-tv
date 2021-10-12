@@ -1,0 +1,125 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  /*background-image: linear-gradient( 135deg, #2c3e50 10%, #3498db 100%);*/
+  background: #3498db;
+
+  /* grdaient */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(10,174,227,1)),rgba(124,182,255,1)98db));
+  background: -webkit-linear-gradient(top, rgba(10,174,227,1), rgba(124,182,255,1));
+  background: -moz-linear-gradient(top, rgba(10,174,227,1), rgba(124,182,255,1));
+  background: -ms-linear-gradient(top, rgba(10,174,227,1), rgba(124,182,255,1));
+  background: -o-linear-gradient(top, rgba(10,174,227,1), rgba(124,182,255,1));
+  background: linear-gradient(top, rgba(10,174,227,1), rgba(124,182,255,1));
+}
+
+/*.time-and-date{
+  position: fixed;
+  top: 59px;
+  left: 48px;
+}*/
+.dauer-home-poster{
+  height: auto;
+  width: auto;
+  max-height: 83vh;
+  max-width: 100%;
+  border-radius: 4px;
+}
+.fsg-logo{
+  height: 180px;
+  position: fixed;
+  top: 55px;
+  right: 48px;
+}
+
+.weather-img{
+  filter: drop-shadow(0px 0px 3px #1072b3);
+}
+
+#uhrzeit{
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px !important;
+}
+#datum{
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.light-text{
+  color: rgba(255, 255, 255, .8)
+}
+
+.inner {
+  margin: 20px;
+  width: 100%;
+}
+
+.left {
+  float: left;
+  margin-left: 30px;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+h1 {
+  font-size: 600%;
+}
+
+td {
+  text-align:center;
+  vertical-align:middle;
+}
+
+.newsticker {
+  width: auto;
+  height: auto;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  font-size: 160%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.marquee {
+  white-space: nowrap;
+  position:relative;
+}
+
+#p {
+  color: lightgray;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
