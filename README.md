@@ -12,9 +12,7 @@ Für mehr Infos zur Raspberry Pi Installation und Setup: https://github.com/AnTh
 
 - Klone dieses Git repo in den Apache Webroot folder (`cd /var/www/ && git clone XX html`)
 - Cronjob einrichten (mit `sudo crontab -e`), der alle 2 STunden schaut, ob dieses Git Repo geupdated wurde, und ggf. die lokale Version automatisch updated. (`* */2 * * * cd /var/www/html && git pull`)
-- Gib Apache Zugriff auf den /var/www/html folder (https://askubuntu.com/a/767534):
+- Gib Apache Zugriff auf den /var/www/html folder (keine ideale lösung -> **TODO!!**):
 ```
-sudo chgrp -R www-data /var/www/html
-sudo find /var/www/html -type d -exec chmod g+rx {} +
-sudo find /var/www/html -type f -exec chmod g+r {} +
+sudo chmod 777 -R /var/www/html
 - ```
