@@ -100,7 +100,7 @@ function getNews(){
 function getPosters(){
   global $posters_dir;
   $posters = [];
-  $paths = glob($posters_dir.'*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+  $paths = glob($posters_dir.'*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
   foreach($paths as $path){
     $posters[] = basename($path);
   }
