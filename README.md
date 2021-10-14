@@ -15,4 +15,4 @@ Für mehr Infos zur Raspberry Pi Installation und Setup: https://github.com/AnTh
 - Gib Apache Zugriff auf den /var/www/html folder (keine ideale lösung -> **TODO!!**):
 ```
 sudo chmod 777 -R /var/www/html
-- ```
+```
